@@ -1,0 +1,201 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Swift Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Swift Events
+X-WR-TIMEZONE:Europe/Madrid
+
+BEGIN:VEVENT
+UID:iosconfsg-2026@swiftevents.dev
+SEQUENCE:0
+DTSTAMP:20260113T120000Z
+SUMMARY:iOSConfSG
+DESCRIPTION:The annual iOS Conference in Singapore.
+URL:https://www.iosconf.sg
+LOCATION:Singapore
+DTSTART;VALUE=DATE:20260121
+DTEND;VALUE=DATE:20260124
+END:VEVENT
+
+BEGIN:VEVENT
+UID:swift-pre-fosdem-2026@swiftevents.dev
+SEQUENCE:0
+DTSTAMP:20260113T120000Z
+SUMMARY:Swift Pre-FOSDEM Community Event
+DESCRIPTION:The Swift open source community event.
+URL:https://swiftlang.github.io/event-fosdem/
+LOCATION:Brussels, Belgium
+DTSTART;VALUE=DATE:20260130
+DTEND;VALUE=DATE:20260131
+END:VEVENT
+
+BEGIN:VEVENT
+UID:fosdem-2026@swiftevents.dev
+SEQUENCE:0
+DTSTAMP:20260113T120000Z
+SUMMARY:FOSDEM
+DESCRIPTION:Free and non-commercial event organised by the community for the community.
+URL:https://fosdem.org/2026/
+LOCATION:Brussels, Belgium
+DTSTART;VALUE=DATE:20260131
+DTEND;VALUE=DATE:20260202
+END:VEVENT
+
+BEGIN:VEVENT
+UID:arctic-conference-2026@swiftevents.dev
+SEQUENCE:0
+DTSTAMP:20260113T120000Z
+SUMMARY:ARCtic Conference
+DESCRIPTION:The World's Northernmost Apple Developers Conference.
+URL:https://arcticonference.com
+LOCATION:Oulu, Finland
+DTSTART;VALUE=DATE:20260210
+DTEND;VALUE=DATE:20260213
+END:VEVENT
+
+BEGIN:VEVENT
+UID:appdevcon-conference-2026@swiftevents.dev
+SEQUENCE:0
+DTSTAMP:20260113T120000Z
+SUMMARY:Appdevcon Conference
+DESCRIPTION:Europe's most exciting App Development Conference.
+URL:https://arcticonference.com
+LOCATION:Amsterdam, Netherlands
+DTSTART;VALUE=DATE:20260310
+DTEND;VALUE=DATE:20260314
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lets-vision-2026@swiftevents.dev
+SEQUENCE:0
+DTSTAMP:20260113T120000Z
+SUMMARY:LET'S VISION
+DESCRIPTION:Three days of talks, booths, and connections with the Apple & AI ecosystem.
+URL:https://letsvision.swiftgg.team
+LOCATION:Shanghai, China
+DTSTART;VALUE=DATE:20260327
+DTEND;VALUE=DATE:20260330
+END:VEVENT
+
+BEGIN:VEVENT
+UID:try-swift-tokyo-2026@swiftevents.dev
+SEQUENCE:0
+DTSTAMP:20260113T120000Z
+SUMMARY:try! Swift Tokyo
+DESCRIPTION:Developers from all over the world will gather here.
+URL:https://tryswift.jp/en/
+LOCATION:Tokyo, Japan
+DTSTART;VALUE=DATE:20260412
+DTEND;VALUE=DATE:20260415
+END:VEVENT
+
+BEGIN:VEVENT
+UID:deep-dish-swift-2026@swiftevents.dev
+SEQUENCE:0
+DTSTAMP:20260113T120000Z
+SUMMARY:Deep Dish Swift
+DESCRIPTION:A supreme Swift developer conference being served in Chicago, Illinois.
+URL:https://deepdishswift.com
+LOCATION:Chicago, USA
+DTSTART;VALUE=DATE:20260412
+DTEND;VALUE=DATE:20260415
+END:VEVENT
+
+BEGIN:VEVENT
+UID:ioskonf-2026@swiftevents.dev
+SEQUENCE:0
+DTSTAMP:20260113T120000Z
+SUMMARY:iOSKonf
+DESCRIPTION:The premier iOS conference in the Balkans.
+URL:https://www.ioskonf.mk
+LOCATION:Skopje, North Macedonia
+DTSTART;VALUE=DATE:20260504
+DTEND;VALUE=DATE:20260507
+END:VEVENT
+
+BEGIN:VEVENT
+UID:swift-craft-2026@swiftevents.dev
+SEQUENCE:0
+DTSTAMP:20260113T120000Z
+SUMMARY:Swift Craft
+DESCRIPTION:An international Swift conference in the UK, by the sea.
+URL:https://swiftcraft.uk/
+LOCATION:Kent, UK
+DTSTART;VALUE=DATE:20260518
+DTEND;VALUE=DATE:20260521
+END:VEVENT
+
+BEGIN:VEVENT
+UID:mdevcamp-2026@swiftevents.dev
+SEQUENCE:0
+DTSTAMP:20260113T120000Z
+SUMMARY:mDevCamp
+DESCRIPTION:One of the most significant European conferences focused on educating mobile devs and building community.
+URL:https://mdevcamp.eu
+LOCATION:Prague, Czech Republic
+DTSTART;VALUE=DATE:20260603
+DTEND;VALUE=DATE:20260605
+END:VEVENT
+
+BEGIN:VEVENT
+UID:swift-rockies-2026@swiftevents.dev
+SEQUENCE:0
+DTSTAMP:20260113T120000Z
+SUMMARY:Swift Rockies
+DESCRIPTION:A retreat-style iOS developer conference in the heart of the Rockies.
+URL:https://swiftrockies.com
+LOCATION:Calgary, Canada
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260717
+END:VEVENT
+
+BEGIN:VEVENT
+UID:iosdevuk-2026@swiftevents.dev
+SEQUENCE:0
+DTSTAMP:20260113T120000Z
+SUMMARY:iOSDevUK
+DESCRIPTION:The UK’s Best iOS Development Conference.
+URL:https://www.iosdevuk.com
+LOCATION:Ceredigion, Wales (UK)
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260910
+END:VEVENT
+
+BEGIN:VEVENT
+UID:swift-island-2026@swiftevents.dev
+SEQUENCE:0
+DTSTAMP:20260113T120000Z
+SUMMARY:Swift Island
+DESCRIPTION:Small-scale, all-included Swift conference with hands-on WWDC workshops.
+URL:https://swiftisland.nl
+LOCATION:Texel, Netherlands
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260912
+END:VEVENT
+
+BEGIN:VEVENT
+UID:nextapp-swiftcon-2026@swiftevents.dev
+SEQUENCE:0
+DTSTAMP:20260113T120000Z
+SUMMARY:next.app swiftCon
+DESCRIPTION:The world's premier event for Swift developers.
+URL:https://www.nextappcon.com/swiftcon
+LOCATION:Berlin, Germany
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261010
+END:VEVENT
+
+BEGIN:VEVENT
+UID:swiftsonic-2026@swiftevents.dev
+SEQUENCE:0
+DTSTAMP:20260113T120000Z
+SUMMARY:Swiftsonic
+DESCRIPTION:An immersive Swift & iOS experience wrapped in festival energy.
+URL:https://swiftsonicconf.com
+LOCATION:Nashville, USA
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261123
+END:VEVENT
+
+END:VCALENDAR
