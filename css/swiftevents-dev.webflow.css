@@ -133,6 +133,12 @@ h2 {
   overflow: hidden;
 }
 
+.conference-brand {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  display: flex;
+}
+
 .conference-brand.w--current {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
@@ -172,11 +178,6 @@ h2 {
 .conference-nav-link.w--current {
   color: #000;
   font-weight: 600;
-}
-
-.conference-nav-link.calendar {
-  padding-top: 18px;
-  padding-bottom: 18px;
 }
 
 .watchlist-title-block {
@@ -309,19 +310,6 @@ h2 {
   inset: 10px 10px auto auto;
 }
 
-.subscribe-button {
-  color: #fff;
-  background-color: gray;
-  border-radius: 8px;
-  padding: 10px 20px;
-  transition: background-color .3s ease-in-out;
-  display: block;
-}
-
-.subscribe-button:hover {
-  background-color: #5c5c5c;
-}
-
 .calendar-subscribe-link {
   color: #f5f5f7;
   text-align: center;
@@ -344,11 +332,6 @@ h2 {
   background-color: #0000;
 }
 
-.link {
-  width: 230px;
-  display: block;
-}
-
 .calendar-download-link {
   color: #0171e3;
   text-align: center;
@@ -368,6 +351,18 @@ h2 {
   width: 40px;
 }
 
+.social-brand-icon {
+  width: 24px;
+}
+
+.social-links {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .conference-grid {
     grid-template-columns: 1fr 1fr;
@@ -384,14 +379,10 @@ h2 {
     text-align: left;
   }
 
-  .conference-brand.w--current {
+  .conference-brand, .conference-brand.w--current {
     grid-column-gap: 8px;
     grid-row-gap: 8px;
     padding-left: 0;
-  }
-
-  .conference-nav-link.calendar {
-    display: none;
   }
 
   .watchlist-description {
