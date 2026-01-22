@@ -133,6 +133,14 @@ h2 {
   overflow: hidden;
 }
 
+.conference-brand.w--current {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
 .navbar {
   z-index: 99;
   -webkit-backdrop-filter: saturate(180%) blur(12px);
@@ -231,6 +239,13 @@ h2 {
   color: #6e6e73;
 }
 
+.heading {
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(312deg, #051f46, #1b5ca3);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
 .footer-copy {
   color: #6e6e73;
   text-align: center;
@@ -277,8 +292,8 @@ h2 {
 }
 
 .swift-logo {
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 80px;
   margin-top: 20px;
 }
 
@@ -349,6 +364,10 @@ h2 {
   color: #6e6e73;
 }
 
+.image {
+  width: 40px;
+}
+
 @media screen and (max-width: 991px) {
   .conference-grid {
     grid-template-columns: 1fr 1fr;
@@ -366,6 +385,8 @@ h2 {
   }
 
   .conference-brand.w--current {
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
     padding-left: 0;
   }
 
@@ -386,11 +407,15 @@ h2 {
   }
 
   .heading {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .calendar-subscribe-link {
     transition: background-color .3s ease-in-out;
+  }
+
+  .image {
+    width: 24px;
   }
 }
 
