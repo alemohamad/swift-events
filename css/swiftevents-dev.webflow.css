@@ -341,7 +341,7 @@ h2 {
   display: flex;
 }
 
-.calendar-subscribe-link {
+.calendar-subscribe-button {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   box-shadow: none;
@@ -360,7 +360,7 @@ h2 {
   display: flex;
 }
 
-.calendar-subscribe-link:hover {
+.calendar-subscribe-button:hover {
   color: #6e6e73;
   box-shadow: 0 16px 32px -16px #00000029;
 }
@@ -416,7 +416,7 @@ h2 {
     width: 24px;
   }
 
-  .calendar-subscribe-link {
+  .calendar-subscribe-button {
     margin-top: 10px;
     margin-bottom: 10px;
   }
