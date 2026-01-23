@@ -180,14 +180,14 @@ h2 {
   font-weight: 600;
 }
 
-.watchlist-title-block {
+.group-title-block {
   padding-top: 40px;
   padding-bottom: 20px;
 }
 
-.watchlist-description {
+.group-description {
   text-align: center;
-  max-width: 600px;
+  max-width: 650px;
   margin-left: auto;
   margin-right: auto;
   font-size: 17px;
@@ -396,7 +396,7 @@ h2 {
     padding-left: 0;
   }
 
-  .watchlist-description {
+  .group-description {
     text-align: left;
   }
 
