@@ -210,7 +210,7 @@ h2 {
   border-radius: 18px;
   padding: 22px 24px 20px;
   text-decoration: none;
-  transition: box-shadow .7s ease-in-out;
+  transition: box-shadow .3s ease-in-out;
   overflow: hidden;
 }
 
@@ -348,7 +348,7 @@ h2 {
   color: #0171e3;
   cursor: pointer;
   background-color: #fff;
-  border-radius: 16px;
+  border-radius: 18px;
   justify-content: flex-start;
   align-items: center;
   width: 260px;
