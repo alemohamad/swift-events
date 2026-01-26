@@ -81,7 +81,7 @@ h2 {
   line-height: 1.47em;
   text-decoration: none;
   transition: box-shadow .3s ease-in-out;
-  position: relative;
+  position: static;
   overflow: hidden;
 }
 
@@ -306,6 +306,7 @@ h2 {
   padding: 2px 8px;
   font-size: 12px;
   font-weight: 600;
+  display: block;
   position: absolute;
   inset: 10px 10px auto auto;
 }
