@@ -146,8 +146,8 @@ SUMMARY:Swift Rockies
 DESCRIPTION:A retreat-style iOS developer conference in the heart of the Rockies.
 URL:https://swiftrockies.com
 LOCATION:Calgary, Canada
-DTSTART;VALUE=DATE:20260715
-DTEND;VALUE=DATE:20260717
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260724
 END:VEVENT
 
 BEGIN:VEVENT
