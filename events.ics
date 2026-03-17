@@ -187,6 +187,18 @@ DTEND;VALUE=DATE:20261010
 END:VEVENT
 
 BEGIN:VEVENT
+UID:swift-connection-2026@swiftevents.dev
+SEQUENCE:0
+DTSTAMP:20260317T120000Z
+SUMMARY:Swift Connection
+DESCRIPTION:The French conference dedicated to Swift, iOS, macOS and the ecosystems of Apple technologies.
+URL:https://swiftconnection.io
+LOCATION:Paris, France
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261102
+END:VEVENT
+
+BEGIN:VEVENT
 UID:swiftsonic-2026@swiftevents.dev
 SEQUENCE:0
 DTSTAMP:20260113T120000Z
