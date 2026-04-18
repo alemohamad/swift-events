@@ -69,13 +69,13 @@ h2 {
 }
 
 .conference {
+  max-width: 300px;
   box-shadow: none;
   color: #1d1d1f;
   letter-spacing: -.022em;
   cursor: pointer;
   background-color: #fff;
   border-radius: 18px;
-  max-width: 300px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 17px;
   line-height: 1.47em;
@@ -344,6 +344,7 @@ h2 {
 .calendar-subscribe-button {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
+  width: 260px;
   box-shadow: none;
   color: #0171e3;
   cursor: pointer;
@@ -351,7 +352,6 @@ h2 {
   border-radius: 18px;
   justify-content: flex-start;
   align-items: center;
-  width: 260px;
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 10px;
