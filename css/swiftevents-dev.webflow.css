@@ -381,6 +381,7 @@ h2 {
 .filter-button {
   color: gray;
   background-color: #fff;
+  flex: none;
   padding: 6px 12px;
   text-decoration: none;
   transition: all .3s ease-in-out;
@@ -404,7 +405,6 @@ h2 {
 .filter-button.selected.w--current {
   color: #fff;
   background-color: gray;
-  flex: none;
   text-decoration: none;
 }
 
