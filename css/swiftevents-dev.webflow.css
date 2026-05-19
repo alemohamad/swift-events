@@ -59,6 +59,10 @@ h2 {
   overflow: clip;
 }
 
+.conference-image:hover {
+  background-color: #fff;
+}
+
 .conference-date-place {
   color: #6e6e73;
   letter-spacing: -.016em;
@@ -371,6 +375,60 @@ h2 {
   justify-content: center;
   align-items: center;
   padding-top: 20px;
+  display: flex;
+}
+
+.filter-button {
+  color: gray;
+  background-color: #fff;
+  padding: 6px 12px;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+  display: inline-block;
+}
+
+.filter-button:hover {
+  color: #0171e3;
+}
+
+.filter-button.selected {
+  color: #6e6e73;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.filter-button.selected:hover {
+  transform: scale(1);
+}
+
+.filter-button.selected.w--current {
+  color: #fff;
+  background-color: gray;
+  flex: none;
+  text-decoration: none;
+}
+
+.filter-button.last {
+  border-right-width: 0;
+}
+
+.filter-group {
+  box-sizing: content-box;
+  background-color: #fff;
+  border: 0 solid #6e6e73;
+  border-radius: 4px;
+  max-width: 100%;
+  display: flex;
+  overflow: auto;
+  box-shadow: 0 8px 16px -8px #0000000f;
+}
+
+.filter-row {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
   display: flex;
 }
 
