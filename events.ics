@@ -149,6 +149,17 @@ DTSTART;VALUE=DATE:20260608
 DTEND;VALUE=DATE:20260613
 END:VEVENT
 BEGIN:VEVENT
+UID:swift-conf-indonesia-2026@swiftevents.dev
+SEQUENCE:0
+DTSTAMP:20260630T120000Z
+SUMMARY:Swift Conf Indonesia
+DESCRIPTION:A gathering of Swift enthusiasts and developers.
+URL:https://iosda.link/SwiftConfIndo
+LOCATION:Jakarta, Indonesia
+DTSTART;VALUE=DATE:20260704
+DTEND;VALUE=DATE:20260706
+END:VEVENT
+BEGIN:VEVENT
 UID:swift-rockies-2026@swiftevents.dev
 SEQUENCE:0
 DTSTAMP:20260113T120000Z
@@ -158,6 +169,17 @@ URL:https://swiftrockies.com
 LOCATION:Calgary, Canada
 DTSTART;VALUE=DATE:20260722
 DTEND;VALUE=DATE:20260724
+END:VEVENT
+BEGIN:VEVENT
+UID:iplayground-2026@swiftevents.dev
+SEQUENCE:0
+DTSTAMP:20260630T120000Z
+SUMMARY:iPlayground
+DESCRIPTION:A seminar designed for Apple software developers since 2018.
+URL:https://iplayground.io
+LOCATION:Taipei, Taiwan
+DTSTART;VALUE=DATE:20260725
+DTEND;VALUE=DATE:20260727
 END:VEVENT
 BEGIN:VEVENT
 UID:iosdevuk-2026@swiftevents.dev
@@ -224,6 +246,17 @@ URL:https://do-ios.com
 LOCATION:Amsterdam, Netherlands
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261113
+END:VEVENT
+BEGIN:VEVENT
+UID:swift-bharat-2026@swiftevents.dev
+SEQUENCE:0
+DTSTAMP:20260630T120000Z
+SUMMARY:Swift Bharat
+DESCRIPTION:India’s biggest and greatest Apple Developer Conference!
+URL:https://www.swiftbharat.org
+LOCATION:Mumbai, India
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261121
 END:VEVENT
 BEGIN:VEVENT
 UID:swiftsonic-2026@swiftevents.dev
