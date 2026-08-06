@@ -95,6 +95,12 @@ h2 {
 
 .conference.past {
   filter: grayscale();
+  transition-property: all;
+  position: relative;
+}
+
+.conference.past:hover {
+  filter: none;
 }
 
 .conference-name {
@@ -134,6 +140,7 @@ h2 {
 }
 
 .conference-image-container {
+  position: relative;
   overflow: hidden;
 }
 
