@@ -77,7 +77,9 @@ def rewrite(html):
 
 
 def save(path, body):
-    rel = "index.html" if path == "/" else path.strip("/") + "/index.html"
+    # /about is saved as about.html (not about/index.html) so GitHub Pages serves /about without
+    # redirecting to /about/, which would stop Webflow from marking the current page in the menu.
+    rel = "index.html" if path == "/" else path.strip("/") + ".html"
     dest = os.path.join(OUT, rel)
     os.makedirs(os.path.dirname(dest), exist_ok=True)
     with open(dest, "w", encoding="utf-8") as f:
